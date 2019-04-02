@@ -1,0 +1,53 @@
+*::after, *::before {
+    box-sizing: border-box
+}
+#hero1 {
+    float: left;
+    height: 125px; 
+    width: 125px;
+    border: none;
+    padding:10px;
+    margin:5px;
+}
+#hero2 {
+    float: left;
+    height: 125px; 
+    width: 125px;
+    border: none;
+    padding:10px;
+    margin:5px;
+}
+#hero3 {
+    float: left;
+    height: 125px; 
+    width: 125px;
+    border: none;
+    padding:10px;
+    margin:5px;
+}
+#hero4 {
+    float: left;
+    height: 125px; 
+    width: 125px;
+    border: none;
+    padding:10px;
+    margin:5px;
+}
+#zelda-fighter {
+    float: right;
+    font-size: 40px;
+    padding: 30px;
+}
+#fight {
+    clear: both;
+}
+body { background: url("../images/hyrule2.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+/* nav {
+    position: relative;
+    border: 2px solid;
+    padding: 10px; */
+
