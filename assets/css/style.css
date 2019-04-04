@@ -40,14 +40,66 @@
 }
 #fight {
     clear: both;
+    font-size: 40px;
+    color: white;
+    padding: 0;
+    margin-left: 200px;
+    border: none;
+
 }
 body { background: url("../images/hyrule2.jpeg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
 }
-/* nav {
-    position: relative;
-    border: 2px solid;
-    padding: 10px; */
+#hero-used {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: fixed;
+    bottom: 30%;
+    right: 65%;
+}
+#attack-spot {
+    position: fixed;
+    height: 125px; 
+    width: 125px;
+    border: none;
+    padding:10px;
+    margin:5px;
+    bottom:40%;
+    right:60%;
+}
+#enemy-spot {
+    position: fixed;
+    height: 125px; 
+    width: 125px;
+    border: none;
+    padding:10px;
+    margin:5px;
+    bottom:40%;
+    right:30%;
+}
+#enemy-used {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: fixed;
+    bottom: 30%;
+    right: 30%;
+}
+button {
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    color: darkgrey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 315px 380px;
+    cursor: pointer;
+}
+
 
